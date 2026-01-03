@@ -43,3 +43,4 @@ In these cases, you can encode the contents of the file with `base64`, save that
 The default workflow does not require that you commit your changes, but `git` itself is still used to read some metadata about the repository. You can set the `EAS_NO_VCS=1` environment variable to skip using Git for all EAS CLI commands and optionally `EAS_PROJECT_ROOT` to define the root of your project if it is different than location of your `eas.json` file.
 
 If you want to use `.easignore` instead of `.gitignore` with `EAS_NO_VCS=1`, then you need to place it in the directory pointed to by the `EAS_PROJECT_ROOT` environment variable (if it's set), or in the same directory as your `eas.json` otherwise.
+Run 8398a7/action-slack@v3
